@@ -1,0 +1,28 @@
+.custom-header{
+    background-color: black;
+    
+}
+ .navbar-brand img{
+    
+    width: 90px;
+   padding-top: 10px;
+}
+.navbar{
+    background-color: #232f39 !important;
+    margin: 0 !important;
+}
+.navbar a{
+    color: white !important;
+}
+footer{
+    background-color: #232f39 !important;
+
+}
+ footer h5{
+    color: white !important;
+}
+.col img{
+    width: 60%;
+    margin-left: 130px;
+   
+}

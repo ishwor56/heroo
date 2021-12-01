@@ -1,0 +1,13 @@
+.search i{
+    background: green;
+    padding: 16px 19px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.yes input{
+    border: none;
+    outline: none;
+}
+

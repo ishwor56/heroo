@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is string</title>
+</head>
+
+<body>
+
+    <script>
+        const string_value = "<h1>welcome to dursikhya to attend javascript class<h1/>"
+
+        // to count the length of the string
+
+
+        document.write(`the length of the string is ${string_value.length} <br>`)
+
+
+        // to find the position of the string use indexof
+
+
+        document.write(`the position of 'to' in the string is ${string_value.indexOf('to')}<br>`)
+
+
+        document.write(`the position of 'to' in the string is ${string_value.search('to')}<br>`)
+
+        // TO FIND THE POSITIOM OF LAST occurrance of the reapeateduse lastIndexOf
+
+        document.write(` TO LAST POSITION IS GIVEN ${string_value.lastIndexOf('to')}<br>`)
+
+
+        // to chnage string to uppercase use to uppercase
+
+
+        document.write(`${string_value.toLocaleUpperCase()}<br>`)
+
+
+        document.write(`${string_value.toLocaleLowerCase()}`)
+
+
+
+
+        document.write(`${string_value.replace('javascript', 'css')} <br>`)
+
+
+
+        document.write(`${string_value.replaceAll('to', 'css')} <br>`)
+
+
+
+        // replace using regular expression and indententive(i)
+        document.write(`${string_value.replace(/dursikhya/ig, 'acadamy')}<br>`) >
+
+
+            // document.write(`${string_value.replace(/to/ig, 'you')}<br>`)
+
+
+
+            //substring -> certain parts of string
+            //substring method
+            //slice(start , end)
+            //substring(start , end)
+            //substr(start, length)
+
+
+
+
+            document.write(`${string_value.slice(0, 20)}.....<br>`)
+
+
+
+document.write(`${string_value.substring(5, 25)}.....<br>`)
+
+
+document.write(`${string_value.substr(5, 25)}.....`)
+
+
+
+
+//charAt()
+//charCodeAt()
+
+
+
+//concatenate -> for this we use  + 
+
+const full_name = 'ishwor gautam'
+document.write(' this is fish' + full_name + "<br>")
+
+const a = '15'
+const b = '20'
+
+const c = a+b
+
+document.write(c)
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

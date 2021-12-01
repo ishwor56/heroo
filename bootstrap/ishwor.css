@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.collaps{
+
+width: 80%;
+margin: auto;
+
+
+
+}
+
+
+
+
+
+
+.selection{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: coral;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.fresh{
+    text-align: center;
+    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+
+.nav{
+    padding-right: 560px !important;
+}
+
+
+.ishwor{
+    width: 80%;
+    margin: auto;
+}
